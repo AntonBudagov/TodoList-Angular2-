@@ -1,0 +1,12 @@
+todo-item{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+}
+
+todo-item:not(:last-child){
+  margin-bottom: 20px;
+}
